@@ -1,0 +1,61 @@
+.box {
+    width: 80vw;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-top: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background-color: #e66565; /* Light background color */
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.box:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+    transform: translateY(-4px); /* Slight lift on hover */
+}
+
+.content {
+    overflow: auto;
+     /* Limiting height for scrollable content */
+}
+
+button {
+    outline: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    background-color: #27ae60; /* Soft green */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #2ecc71; /* Brighter green */
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+button:active {
+    transform: scale(0.95); /* Slight shrink on click */
+}
+
+h2 {
+    margin-top: 0;
+    border: 2px solid black;
+    position: relative;
+    padding: 10px;
+    background-color: #e69e9e; /* White background */
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+h2::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 3px;
+    background-color: #27ae60; /* Green underline effect */
+}

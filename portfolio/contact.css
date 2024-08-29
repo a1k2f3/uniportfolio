@@ -1,0 +1,36 @@
+
+#email{
+    padding: 10px;
+    width: 90%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-bottom: 10px;
+}
+#subject{
+    padding: 10px;
+    width: 90%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-bottom: 10px;
+}
+#text{
+    width: 50vw;
+    height: 200px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    overflow-wrap: break-word;
+    break-inside: avoid-column;
+}
+button{
+    outline: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    background-color: #27ae60; /* Soft green */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
